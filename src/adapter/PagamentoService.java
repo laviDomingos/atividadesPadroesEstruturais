@@ -1,9 +1,3 @@
-package adapter.src.service;
-
-import adapter.src.adapter.PagamentoAdapter;
-import adapter.src.legacy.SistemaPagamentoAntigo;
-
-
 public class PagamentoService {
     private final Pagamento pagamento;
 

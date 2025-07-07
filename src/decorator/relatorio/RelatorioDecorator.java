@@ -1,6 +1,4 @@
-package decorator;
-import decorator.component.Relatorio;
-public class RelatorioDecorator implements Relatorio {
+public abstract class RelatorioDecorator implements Relatorio {
     protected Relatorio relatorio;
 
     public RelatorioDecorator(Relatorio relatorio) {
